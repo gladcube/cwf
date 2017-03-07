@@ -2,7 +2,7 @@ require! \request
 
 module.exports = (token)->
   req = (method, path, body, cb)-->
-    request "https://api.chatwork.com/v1#path",
+    request "https://api.chatwork.com/v2#path",
       method: method
       form: on
       headers: "X-ChatWorkToken": token
