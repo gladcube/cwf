@@ -1,12 +1,16 @@
 {
-  "name": "cwf",
-  "version": "0.2.0",
+  "name": "cwf2",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gladcube/cwf.git"
+  },
+  "author": "GladCube",
   "license": "ISC",
   "dependencies": {
     "livescript": "^1.5.0",
